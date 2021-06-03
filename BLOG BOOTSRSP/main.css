@@ -1,0 +1,127 @@
+
+.profil{
+    height: auto ;
+    width: 40%;
+    
+}
+
+
+.yan-menü{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.liste{
+    margin-top: 40px;
+}
+.sol-menu{
+    height: 100vh;
+    background: rgb(75, 75, 75) 
+}
+/*
+@media only script and(min-width:576px){
+    .sol-menu{
+        height: auto;
+    }
+}
+*/
+
+
+.sol-menu img{
+    text-align: center;
+}
+.sol-menu h2{
+    margin-top: 20px;
+}
+.menüü{
+    background: rgb(75, 75, 75)
+  
+}
+.menüü p{
+    color: white;
+}
+
+
+.menu:hover{
+    background-color: rgb(6, 165, 54) !important;
+    color: white;
+    cursor: pointer;
+}
+
+/*-------------------------------------hakkımızda----------------------------------------------*/ 
+.hak-res{
+    
+    width: 400px;
+    height:auto ;
+}
+.hak-yazi{
+    text-align: justify;
+    line-height: 170%;
+    font-family:"Times New Roman";
+    text-indent:50px;
+}
+
+/*-------------------------------------hakkımızda----------------------------------------------*/ 
+.pro-dıs{
+    
+    height: 20rem;
+    margin: 3rem 0rem;
+    padding:0rem;
+}
+
+.pro-dıs-ic p{
+    text-align: left;
+    
+}
+.pro-dıs-ic p a{
+    text-decoration: none;
+}
+.pro-dıs-ic p a:hover{
+    color: rgb(0, 255, 0) !important;
+    cursor: pointer;
+}
+
+/*-------------------------------------PROJE----------------------------------------------*/ 
+
+
+/*-------------------------------------iletişim----------------------------------------------*/ 
+.ilet-sol{
+    height: 93vh;
+    font-family: Times New Roman;
+}
+.ilet-sag{
+    height: 93vh;
+    font-family: Times New Roman;
+}
+.mesaj-yeri{
+    resize: none;
+}
+
+/*-------------------------------iletişim icon boyları----------------------------------------------------*/ 
+.ilet-boy{
+    
+    height: 15px;
+    width: 15px;
+}
+
+.sosyal-medya{
+    height: 30px;
+    width: 30px;
+}
+.sosyal-med{
+    position: relative;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+
+}
+.sosyal-med:hover{
+    z-index:2;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);  
+    -moz-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
